@@ -4,7 +4,6 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
 
 
   font-synthesis: none;
@@ -25,10 +24,12 @@ body{
 header {
   background-color:#35141B;
   overflow: hidden;
+  box-shadow: 5px 5px 50px black;
 }
 
 /* Style the links inside the navigation bar */
-header a {
+
+.link{
   float: left; /* Float links side by side */
   text-align: center; /* Center-align text */
   width: 25%; /* Equal width (5 icons with 20% width each = 100%) */
@@ -68,7 +69,7 @@ header a:hover {
 
 /* Add an active class to highlight the current page */
 header a.active {
-  background-color: #af9191;
+  background-color: #e5192e;
   color: white;
 }
 
@@ -83,10 +84,12 @@ header .icon {
 
 .light-mode{
  background-color: #d8d8d8 !important; 
+ color: black;
 }
 
 .light-topbar{
-  background-color: #AD272E !important;
+  background-color: #b71425 !important;
+  color: black;
 }
 
 .light-selector{
@@ -97,5 +100,10 @@ header .icon {
 
 color: black;
 font-style: bold;
+
+ }
+
+ .links-lightmode{
+color:black !important;
 
  }
