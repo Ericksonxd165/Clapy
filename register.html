@@ -8,18 +8,22 @@
   <title>Clapy</title>
 </head>
 <body>
-
     <div class="centered" id="container">
         <div class="loader " id="loader"></div>
     </div>
-  
-
   <div class="container">
-    <div class="form_area_lg">
+    <div class="form_area">
         <img src="./assets/images/AltaCalidad.ico" style="height: 100px; padding: 0; margin: 0;" alt="">
-        <p class="title">Inicia sesión</p>
+        <p class="title">Registrate</p>
         <form action="">
-    
+            <div class="form_group">
+                <label class="sub_title" for="name">Nombre</label>
+                <input placeholder="Juan Perez" class="form_style" type="text">
+            </div>
+            <div class="form_group">
+                <label class="sub_title" for="name">Cédula</label>
+                <input placeholder="12345678" class="form_style" type="number">
+            </div>
             <div class="form_group">
                 <label class="sub_title" for="email">Correo electrónico</label>
                 <input placeholder="alguien@ejemplo.com" id="email" class="form_style" type="email">
@@ -28,9 +32,13 @@
                 <label class="sub_title" for="password">Contraseña</label>
                 <input placeholder="Ingresa tu contraseña" id="password" class="form_style" type="password">
             </div>
-         
-                <button class="btn">Inicia sesión</button>
-                <p>No tienes cuenta? <a class="link" href="register.html">Registrate aqui!</a></p><a class="link" >
+            <div class="form_group">
+                <label class="sub_title" for="password">Confirma tu Contraseña</label>
+                <input placeholder="Ingresa nuevamente tu contraseña" id="password" class="form_style" type="password">
+            </div>
+            <div>
+                <button class="btn">REGISTRATE</button>
+                <p>Ya tienes cuenta? <a class="link" href="index.html">Inicia sesión aqui!</a></p><a class="link" href="">
             </a></div><a class="link" href="">
         
     </a></form></div><a class="link" href="">

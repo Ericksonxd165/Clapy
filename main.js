@@ -1,7 +1,9 @@
 const d = document;
 
 import toggler from "./js/mode_toggler.js";
+import preloader from "./js/preloader.js";
 
 d.addEventListener("DOMContentLoaded", e => {
-  toggler("#light-mode", "#night-mode","body","header","#link");
+  console.log("hola")
+  preloader("loader", "container");
 });
